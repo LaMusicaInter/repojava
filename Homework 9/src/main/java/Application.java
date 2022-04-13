@@ -114,7 +114,7 @@ public class Application {
 
         // Задание 3 тест
         System.out.println("-- Задание №3 ---------------------------------");
-        String COURSE_NAME = "НБ"; // там их всего трое
+        String COURSE_NAME = "НБ"; 
         task3(students,COURSE_NAME).stream().forEach(System.out::println);
     }
 
