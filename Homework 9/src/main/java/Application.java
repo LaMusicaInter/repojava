@@ -6,7 +6,7 @@ import java.util.function.Function;
 import java.util.stream.Collectors;
 
 class CourseClass implements Course {
-    String title; // название
+    String title; 
 
     public CourseClass(String title) {
         this.title = title;
@@ -26,7 +26,7 @@ class StudentClass implements Student {
     private String name;
     private List<Course> courses;
 
-    public StudentClass(String name, String courses) { // ~ "Даня", "тактика, стратегия, основы ДД, основы ПДД"
+    public StudentClass(String name, String courses) { 
         this.name = name;
         this.courses = new ArrayList<Course>();
         for (String i: courses.split(", ")) {
